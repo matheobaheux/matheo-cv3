@@ -37,7 +37,7 @@
             <a-assets>
                 <video
                     id="vid"
-                    src="assets/asset.mp4"
+                    src="assets/asset.png"
                     preload="auto"
                     response-type="arraybuffer"
                     loop
@@ -63,14 +63,14 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
-                <a-video
+                <a-image
                     src="#vid"
-                    scale="1 1 1"
+                    scale="4 4 4"
                     position="0 0.1 0"
                     rotation="-90 0 0"
                     class="clickable"
                     gesture-handler
-                ></a-video>
+                ></a-image>
             </a-marker>
 
             <a-entity camera></a-entity>
